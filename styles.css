@@ -1,0 +1,86 @@
+ element
+ {--GreenTreeline: #478559;
+
+--Purplebaseline: hsl(239, 53%, 18%);
+
+--Pinkhighlight: #f95d9b;
+
+--Bluewaterlowlight: #39a0ca;
+ }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161748;
+}
+.form{
+    background-color: #0d1541;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    background-color: #f95d9b;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.form input {
+    margin: 5px 0px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #39a0ca;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+input[type="submit"]{
+border: none;
+background-color: #1860a8;
+color: white;
+padding: 10px;
+border-radius: 5px;
+
+}
+
+#eventsContainer{
+    background-color: #39a0ca;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.event{
+    border: solid 1px #478559;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:left;
+}
+
+.event .days{
+    text-align: center;
+    width: 100px;
+}
+.event .days .days-number{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.event .event-name{
+    padding: 10px;
+    width: 200px;
+}
+.event .event-date{
+    padding: 10px;
+    width: 100px;
+}
